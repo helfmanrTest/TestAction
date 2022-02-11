@@ -1,0 +1,9 @@
+name: 'Hello World'
+description: 'Greet someone'
+inputs:
+  filename: 
+    description: 'The File Name'
+    required: true
+runs:
+  steps:
+    - run: cat ${{ filename }}.
