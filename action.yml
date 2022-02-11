@@ -7,4 +7,4 @@ inputs:
 runs:
   steps:
     - run: cat ${{ inputs.filename }}
-    - shell: bash
+      shell: bash
