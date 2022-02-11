@@ -5,6 +5,7 @@ inputs:
     description: 'The File Name'
     required: true
 runs:
+  using: "composite"
   steps:
     - run: cat ${{ inputs.filename }}
       shell: bash
