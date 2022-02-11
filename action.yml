@@ -6,4 +6,4 @@ inputs:
     required: true
 runs:
   steps:
-    - run: cat ${{ filename }}.
+    - run: cat ${{ inputs.filename }}.
