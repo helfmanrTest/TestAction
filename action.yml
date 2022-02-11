@@ -1,4 +1,4 @@
-name: 'Hello World'
+name: 'HelfmanrTestAction'
 description: 'Greet someone'
 inputs:
   filename: 
